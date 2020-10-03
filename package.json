@@ -1,0 +1,23 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Blue hair     ## Installation     none     ## Usage     none      ## Contribution     none     ## Test     none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefj12/ReadMe-Gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stefj12/ReadMe-Gen/issues"
+  },
+  "homepage": "https://github.com/Stefj12/ReadMe-Gen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {}
+}

@@ -1,18 +1,21 @@
-# fdsfs
+// function to generate markdown for README
+
+function generateMarkdown(data) {
+    return `# ${data.projectTitle}
     ## Description
     This is how you will generate a README for your repo based on a few prompts
     ## Table of Contents
-    dfsfs
+    ${data.projectDescript}
     * [Installation](#Installation)
-    fsf
+    ${data.installation}
     * [Usage](#Usage)
-    fds 
+    ${data.usage} 
     * [Contribution](#Contribution)
-    f
+    ${data.contribution}
     * [Test](#Test)
-    fsdf
+    ${data.test}
     * [Questions](#Questions)
-    undefined
+    ${data.questions}
    ## Installation
    To install, run the command:
    npm install
@@ -27,4 +30,8 @@
    ## Questions
    Locate all my reops at Stefj12
    stefanjohnson650@gmail.com for any questions
+  `;
+  }
+  
+  module.exports = generateMarkdown;
   
